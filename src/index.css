@@ -1,0 +1,406 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.profile-sec{
+  width: 10vw;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+ul li{
+  display: inline;
+}
+li{
+  padding-right: 10px;
+}
+.Icons{
+  padding-left: 20px;
+  display: inline;
+}
+
+.navlinks{
+  line-height: 50px;
+  padding-left: 30px;
+  width: 150px;
+}
+.navlink{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: rgb(73, 72, 72);
+}
+.navlink:hover{
+  color: white;
+}
+
+.navlinks a.active{
+  color: white;
+}
+.navlinks a.inactive{
+  color:rgb(177, 161, 161) ;
+}
+
+/* Home components Design */
+
+.home{
+  background: url("https://cdn.pixabay.com/photo/2014/12/27/15/40/office-581131__340.jpg") no-repeat center/cover;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 21vw;
+}
+.typewriter h1 {
+  color: #fff;
+  width: 232px;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid white; 
+  white-space: nowrap; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(30),
+    blink-caret .5s;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+.content-position{
+  color: #fff;
+  line-height: 20px;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  width: 300px;
+}
+
+.about{
+  padding-left: 5px;
+  width: 100vw;
+  height: 100vh;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  line-height: 19px;
+  margin-left: 23vw;
+}
+
+.abouts img{
+  height:350px;
+  width:350px;
+  padding-top: 25px;
+}
+.abouts hr{
+  height:2px;
+  width: 50px;
+  margin-left: 0px;
+  background-color: skyblue;
+}
+.section{
+  display: flex;
+}
+
+.paragraph{
+  padding-left: 30px;
+}
+.paragraph h2{
+  color: navy;
+}
+.user{
+  display: flex;
+  line-height: 30px;
+}
+.user2{
+  margin-left: 40px;
+}
+
+.resume{
+  padding-left: 5px;
+  width: 100vw;
+  height: 100vh;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  line-height: 19px;
+  margin-left: 23vw;
+}
+.resumes hr{
+  height:2px;
+  width: 50px;
+  margin-left: 0px;
+  background-color: skyblue;
+}
+.section1{
+  display: flex;
+}
+.summary{
+  width: 450px;
+}
+.summary1{
+  width: 450px;
+  padding-left: 60px;
+}
+.summary h4{
+  padding-left: 30px;
+}
+.summary p{
+  padding-left: 30px;
+  font-style: italic;
+}
+.summary li{
+  padding-left: 30px;
+  line-height: 30px;
+}
+.summary1 h4{
+  padding-left: 30px;
+}
+.summary1 h3{
+  padding-left: 30px;
+}
+.summary1 p{
+  padding-left: 30px;
+  font-style: italic;
+}
+.summary1 label{
+  padding: 10px 20px;
+  background-color:rgb(214, 233, 240);
+  margin-left: 30px;
+}
+.summary1 li{
+  padding-left: 30px;
+}
+.education label{
+  padding: 10px 20px;
+  background-color:rgb(214, 233, 240);
+  margin-left: 30px;
+}
+.education1 label{
+  padding: 10px 20px;
+  background-color:rgb(214, 233, 240);
+  margin-left: 30px;
+}
+.portfolio{
+    padding-left: 5px;
+    padding-top: 50px;
+    width: 100vw;
+    height: 100vh;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    line-height: 19px;
+    margin-left: 23vw;
+  }
+.portfolio1 hr{
+  height:2px;
+  width: 50px;
+  margin-left: 0px;
+  background-color: skyblue;
+}
+.portfolio1 img{
+  grid-template-columns: auto auto auto;
+  height: 320px;
+  width: 320px;
+  margin: 10px;
+}
+.portfolio2:hover{
+  border-bottom: 50px ;
+  border-color: lightblue;
+  border-style: solid;
+}
+.service{
+  padding-left: 5px;
+  padding-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  line-height: 19px;
+  margin-left: 23vw;
+}
+.services hr{
+    height:2px;
+    width: 50px;
+    margin-left: 0px;
+    background-color: skyblue;
+}
+.services1{
+  display: flex;
+}
+.services2{
+  display: flex;
+}
+
+.services1 .lorem{
+  width: 200px;
+  padding-left: 40px;
+  padding-top:10px;
+}
+.services1 .dolor{
+  width: 200px;
+  padding-left: 40px;
+  padding-top:10px;
+}
+.services1 .sed{
+  width: 200px;
+  padding-left: 40px;
+  padding-top:10px;
+}
+.services1 .email :hover{
+  color: blue;
+}
+.services1 .list :hover{
+  color: blue;
+}
+.services1 .assess :hover{
+  color: blue;
+}
+.services1 .email{
+  padding-left: 20px;
+  height: 100px;
+  width: 50px;
+}
+.services1 .list {
+  padding-left: 60px;
+  height: 100px;
+  width: 50px;
+}
+.services1 .assess{
+  padding-left: 60px;
+  height: 100px;
+  width: 50px;
+}
+.services2 .magni{
+  width: 200px;
+  padding-left: 40px;
+  padding-top:10px;
+}
+.services2 .nemo{
+  width: 200px;
+  padding-left: 40px;
+  padding-top:10px;
+}
+.services2 .eiusmod{
+  width: 200px;
+  padding-left: 40px;
+  padding-top:10px;
+}
+.services2 .strike :hover{
+  color: blue;
+}
+.services2 .flare :hover{
+  color: blue;
+}
+.services2 .assign :hover{
+  color: blue;
+}
+.services2 .strike{
+  padding-left: 20px;
+  height: 100px;
+  width: 50px;
+}
+.services2 .flare{
+  padding-left: 60px;
+  height: 100px;
+  width: 50px;
+}
+.services2 .assign{
+  padding-left: 60px;
+  height: 100px;
+  width: 50px;
+}
+
+.para :hover{
+  color: blue;
+}
+
+.contact{
+  padding-left: 5px;
+  padding-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  line-height: 19px;
+  margin-left: 23vw;
+}
+.contacts hr{
+    height:2px;
+    width: 50px;
+    margin-left: 0px;
+    background-color: skyblue;
+}
+.group{
+  display: flex;
+  background-color:rgb(238, 235, 235);
+  padding-left: 20px;
+}
+.contacts1{
+  height: 460px;
+  width: 450px;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color:white;
+}
+.contacts2{
+  height: 460px;
+  width: 450px;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-top: 50px;
+  background-color:white;
+  font-size: larger;
+}
+.contacts2 .label{
+  padding-left: 100px;
+}
+.contacts2 input{
+  height: 30px;
+  margin-left: 10px;
+}
+.contacts2 button{
+  margin-top: 60px;
+  margin-left: 150px;
+  padding: 10px 20px;
+  color: white;
+  background-color:rgb(90, 130, 222);
+  border: none;
+  border-radius: 3px;
+}
+.contacts2 button:hover{
+  background-color: rgb(137, 185, 240);
+}
+.contactaddress{
+  padding-left: 20px;
+  height: 100px;
+  width: 50px;
+}
+
+.contactaddress:hover{
+  color: blue;
+}
+.contacts1 h3{
+  padding-left: 60px;
+}
+.contacts1 p{
+  padding-left: 60px;
+}
